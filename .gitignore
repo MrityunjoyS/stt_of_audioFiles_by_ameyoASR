@@ -1,0 +1,14 @@
+asr_models/hindi_aws/model_and_dict/checkpoint*
+asr_models/hindi_aws/grammer_model/collection*
+asr_models/hindi_aws/embedding_model/checkpoint*
+asr_models/unsupervised_model_checkpoint
+asr_models/first
+asr_models/first.zip
+asr_models/hindi
+asr_models/hindi.zip
+*.zip
+test_PROD_feedback_transcription.txt
+result/*
+transcription.txt
+!result/result_out.txt
+16Aug_11am-12pm_hindi_data_feedback_iter1.txt

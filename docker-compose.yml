@@ -1,0 +1,15 @@
+version: "3.4"
+
+services:
+  transcripting_asr:
+    restart: always
+    runtime: nvidia
+    build:
+        context: .
+        dockerfile: Dockerfile
+    shm_size: 15gb
+    environment:
+        - NVIDIA_VISIBLE_DEVICES=0
+    volumes:
+        - ./asr_models/hindi:/asr_models:rw
+        - ./asrstream:/root/asrstream:rw

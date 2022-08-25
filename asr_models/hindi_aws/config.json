@@ -1,0 +1,11 @@
+{
+    "description":"hindi aws",
+    "use_language_model" : false,
+    "modelpath" : "model_and_dict/checkpoint_best.pt",
+    "dictionary_path" : "model_and_dict/",
+    "lm_path" : "grammer_model/collection.bin",
+    "lexicon_path" : "grammer_model/collection.lexicons",
+    "embedding_model_source_path":"embedding_model/",
+    "embedding_model_destination_path": "/root/ASR/Data/Speech/Unsupervised/multilingula_model/"
+
+}
